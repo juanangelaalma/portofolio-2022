@@ -224,6 +224,11 @@
   .porto__header-image {
     display: none;
   }
+
+  .porto__header-content {
+    position: static;
+  }
+  
   .porto__header-content {
     flex-direction: column;
   }
