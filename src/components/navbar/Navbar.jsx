@@ -26,7 +26,7 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="porto__navbar">
+    <nav className="porto__navbar">
       <div className="porto__navbar-links">
         <div className="porto__navbar-links_logo">
           <img src={logo} alt="logo" />
@@ -59,7 +59,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-    </div>
+    </nav>
   );
 };
 

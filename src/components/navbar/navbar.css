@@ -60,6 +60,7 @@
 
   display: none;
   position: relative;
+  z-index: 2;
 }
 
 .porto__navbar-menu svg {
