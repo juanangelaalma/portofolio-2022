@@ -1,0 +1,82 @@
+.porto__contact {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.porto__contact-img, .porto__contact-content {
+  margin-top: -10rem;
+  width: 50%;
+}
+
+.porto__contact-content h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 63px;
+  line-height: 90px;
+  margin-bottom: 1rem;
+
+  color: #FFFFFF;
+}
+
+.porto__contact-img {
+  display: flex;
+  align-items: center;
+}
+.porto__contact-content p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+  /* or 188% */
+
+
+  color: #A8AAB1;
+  margin-bottom: 2rem;
+}
+
+.porto__contact-img img {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .porto__contact h1 {
+    font-size: 50px;
+    line-height: 90px;
+  }
+}
+
+@media (max-width: 992px) {
+  .porto__contact h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .porto__contact p {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .porto__contact {
+    flex-direction: column;
+  }
+
+  .porto__contact-img, .porto__contact-content {
+    width: 100%;
+  }
+
+  .porto__contact-img {
+    margin-bottom: 2rem;
+  }
+
+  .porto__contact-content {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .porto__contact-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/navbar/Navbar'
 
 import "./App.css"
-import { Header, Portofolio } from './containers'
+import { Contact, Header, Portofolio } from './containers'
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <Header />
       <main>
         <Portofolio />
+        <Contact />
       </main>
     </div>
   )

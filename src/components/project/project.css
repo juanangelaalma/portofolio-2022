@@ -1,3 +1,7 @@
+.porto__portofolio {
+  padding-bottom: 15rem;
+}
+
 .porto__portofolio-list_project {
   display: flex;
   flex-direction: column;
