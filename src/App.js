@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/navbar/Navbar'
 
 import "./App.css"
-import { Contact, Header, Portofolio } from './containers'
+import { Contact, Footer, Header, Portofolio } from './containers'
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
         <Portofolio />
         <Contact />
       </main>
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,53 @@
+.porto__footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.porto__footer-brand {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.porto__footer-brand img {
+  max-width: 200px;
+}
+
+.porto__footer-brand p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 48px;
+  /* identical to box height, or 300% */
+
+
+  color: #FFFFFF;
+}
+
+.porto__footer-made {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.porto__footer-made h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 48px;
+  /* identical to box height, or 267% */
+
+
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .porto__footer {
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+  }
+}
