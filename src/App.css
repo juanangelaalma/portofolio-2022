@@ -36,12 +36,13 @@ a {
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .btn-main svg {
   margin-right: 10px;
-  margin-left: 0;
-  color: #FFFFFF;
+  margin-left: 0 !important;
+  color: #FFFFFF !important;
 }
 
  @-webkit-keyframes scale-up-center {

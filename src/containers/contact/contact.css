@@ -38,6 +38,13 @@
   width: 100%;
 }
 
+.porto__contact-content a.btn-main {
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+
 @media (max-width: 1200px) {
   .porto__contact h1 {
     font-size: 50px;
@@ -71,6 +78,10 @@
 
   .porto__contact-content {
     margin-top: 0;
+  }
+
+  .porto__contact-content a.btn-main {
+    max-width: 100%;
   }
 }
 
