@@ -1,0 +1,50 @@
+.header__list {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.header__list h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 48px;
+  /* identical to box height, or 112% */
+  position: relative;
+
+  color: #FFFFFF;
+}
+.header__list a {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  color: var(--third-color-bg);
+}
+
+.header__list h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 3px;
+  width: 80%;
+  border: none;
+  background-color: var(--third-color-bg);
+}
+
+@media (min-width: 768px) {
+  .header__list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header__list h1::after {
+    width: 100%;
+  }
+}

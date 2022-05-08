@@ -20,6 +20,31 @@ a {
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
+.btn-main {
+  padding: 0.2rem 1.5rem;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 45px;
+  /* or 188% */
+
+  background: var(--third-color-bg);
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-main svg {
+  margin-right: 10px;
+  margin-left: 0 !important;
+  color: #FFFFFF !important;
+}
+
  @-webkit-keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
@@ -42,20 +67,37 @@ a {
 }
 
 
-@media screen and (max-width: 700px) {
+@media (max-width: 992px) {
+  .btn-main {
+    font-size: 14px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .section__padding {
     padding: 4rem;
   }
   .section__margin {
     margin: 4rem;
   }
+  .btn-main {
+    font-size: 16px;
+    line-height: 45px;
+  }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 576px) {
   .section__padding {
     padding: 4rem 2rem;
   }
   .section__margin {
     margin: 4rem 2rem;
+  }
+
+  .btn-main {
+    font-size: 14px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

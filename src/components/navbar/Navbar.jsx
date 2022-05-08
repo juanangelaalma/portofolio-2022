@@ -12,14 +12,14 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#wgpt3">Portofolio</a>
+      <a href="#portofolio">Portofolio</a>
     </p>
     <p>
-      <a href="#possibility">Contact</a>
+      <a href="#contact">Contact</a>
     </p>
-    <p>
+    {/* <p>
       <a href="#blog">Blog</a>
-    </p>
+    </p> */}
   </>
 );
 
@@ -36,8 +36,12 @@ const Navbar = () => {
         </div>
       </div>
       <div className="porto__navbar-media">
-        <AiFillGithub size={24} />
-        <AiFillLinkedin size={24} />
+        <a target="__blank" href="https://github.com/juanangelaalma">
+          <AiFillGithub size={24} />
+        </a>
+        <a target="__blank" href="https://www.linkedin.com/in/juanangelaalma/">
+          <AiFillLinkedin size={24} />
+        </a>
       </div>
       <div className="porto__navbar-menu">
         {toggleMenu ? (
