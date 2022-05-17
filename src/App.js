@@ -1,20 +1,19 @@
 import React from 'react'
-import Navbar from './components/navbar/Navbar'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
+import {HomeContainer, Home, Login} from './pages'
 import "./App.css"
-import { Contact, Footer, Header, Portofolio } from './containers'
 
 const App = () => {
   return (
-    <div className='App'>
-      <Navbar />
-      <Header />
-      <main>
-        <Portofolio />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomeContainer />}>
+          <Route index element={<Home />} />
+          <Route path='login' element={<Login />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
