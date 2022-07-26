@@ -7,6 +7,7 @@
   --third-color-bg: #00CC8F;
   --color-title: #FFFFFF;
   --color-text: #A8AAB1;
+	--third-hover-color-bg: #009166;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -52,4 +53,13 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+@keyframes fadeIn {
+	from: {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }

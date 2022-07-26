@@ -37,6 +37,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 400ms;
+}
+
+.btn-main:hover {
+  background: var(--third-hover-color-bg);
 }
 
 .btn-main svg {

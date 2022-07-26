@@ -7,6 +7,9 @@ import "./portofolio.css";
 import img1 from "../../assets/images/projects/project1.jpg"
 import img2 from "../../assets/images/projects/project2.jpg"
 import img3 from "../../assets/images/projects/project3.jpg"
+import img4 from "../../assets/images/projects/project4.jpeg"
+import img5 from "../../assets/images/projects/project5.jpeg"
+import img6 from "../../assets/images/projects/project6.jpeg"
 
 const projects = [
   {
@@ -18,7 +21,7 @@ const projects = [
   {
     img: img2,
     title: "El Muna Company Profile",
-    desc: "A company profile and blog for Masjid Agung Al Munawwar Tulungagung. This website was built with ReactJS for frontend and Laravel for backend.",
+    desc: "A company profile and blog for Masjid Agung Al Munawwar Tulungagung. This website was built with ReactJS for frontend and Laravel for backend. ",
     url: "http://almunawwartulungagung.online/"
   },
   {
@@ -26,6 +29,24 @@ const projects = [
     title: "Beautiful UI",
     desc: "A beautiful landing page built with React JS and pure CSS without any framework",
     url: "https://modern-new.netlify.app"
+  },
+  {
+    img: img4,
+    title: "Bumil Sehat",
+    desc: "Bumilsehat is an application for pregnant women in order to maintain their pregnancy. Has a pregnancy reminder feature that will be sent via email. There are also features for quizzes and evaluations. Also has a feature to view pregnancy material",
+    url: "https://bumilsehat.com"
+  },
+  {
+    img: img5,
+    title: "Lab Management System",
+    desc: "lab management system is a website for a list of visits, inventory, users. There are two roles, namely staff and guest",
+    url: "https://lms-kel-8.herokuapp.com/"
+  },
+  {
+    img: img6,
+    title: "Peduly.com",
+    desc: "Peduly is crowdfunding platform for social impact, ready to make a better society through kindness and heart.",
+    url: "https://peduly.com/"
   }
 ]
 

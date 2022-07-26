@@ -5,6 +5,7 @@ import logo from "../../assets/png/logo.png";
 import "./navbar.css";
 
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+import { BsMedium } from 'react-icons/bs';
 
 const Menu = () => (
   <>
@@ -41,6 +42,9 @@ const Navbar = () => {
         </a>
         <a target="__blank" href="https://www.linkedin.com/in/juanangelaalma/">
           <AiFillLinkedin size={24} />
+        </a>
+        <a target="__blank" href="https://medium.com/@juanalma">
+          <BsMedium size={24} />
         </a>
       </div>
       <div className="porto__navbar-menu">
