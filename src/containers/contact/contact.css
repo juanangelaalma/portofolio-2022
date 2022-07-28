@@ -21,6 +21,8 @@
 .porto__contact-img {
   display: flex;
   align-items: center;
+  border-bottom: 10px solid var(--third-color-bg);
+  border-radius: 10px;
 }
 .porto__contact-content p {
   font-family: var(--font-family);

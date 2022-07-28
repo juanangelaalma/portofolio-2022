@@ -27,9 +27,10 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 45px;
+    /*background: var(--third-color-bg);*/
   /* or 188% */
-
-  background: var(--third-color-bg);
+  background: rgb(0,221,133);
+  background: linear-gradient(90deg, rgba(0,221,133,1) 0%, rgba(0,171,208,1) 100%);
   color: #FFFFFF;
   border: none;
   outline: none;
@@ -37,11 +38,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 400ms;
+  transition: hover 400ms;
 }
 
 .btn-main:hover {
-  background: var(--third-hover-color-bg);
+  background: rgb(0,171,208);
+  background: linear-gradient(90deg, rgba(0,171,208,1) 0%, rgba(0,221,133,1) 100%);
+  /*background: var(--third-hover-color-bg);*/
 }
 
 .btn-main svg {
