@@ -25,7 +25,15 @@
   font-size: 20px;
   line-height: 20px;
   /* identical to box height, or 100% */
-  color: var(--third-color-bg);
+  /*color: var(--third-color-bg);*/
+  background: #00DD85;
+  background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__list svg {
+  color: #00ABD0;
 }
 
 .header__list h1::after {
@@ -38,6 +46,8 @@
   border: none;
   background-color: var(--third-color-bg);
   animation: lineAnimation 1000ms;
+  background: #00DD85;
+  background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
 }
 
 @media (min-width: 768px) {

@@ -9,6 +9,7 @@ const Contact = () => {
     <section id="contact" className="porto__contact section__padding">
       <div className="porto__contact-img">
         <img src={contactImage} alt="Juan Angela Alma" />
+        <hr/>
       </div>
       <div className="porto__contact-content">
         <h1>Let's talk about everything</h1>

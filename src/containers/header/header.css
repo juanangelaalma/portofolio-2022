@@ -48,7 +48,11 @@
   font-size: 61px;
   line-height: 74px;
 
-  color: var(--third-color-bg);
+  /*color: var(--third-color-bg);*/
+  background: #00DD85;
+  background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .porto__header-content_left h1 {
@@ -65,9 +69,11 @@
   margin-top: -1.5rem;
   height: 5px;
   border: none;
-  background-color: var(--third-color-bg);
+  /*background-color: var(--third-color-bg);*/
   width: 70%;
   margin-left: 0;
+  background: #00DD85;
+  background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
 
   animation: lineAnimation 1000ms;
 }
@@ -114,9 +120,11 @@
   font-size: 24px;
   line-height: 45px;
   /* identical to box height, or 188% */
-
-
-  color: var(--third-color-bg);
+  background: #00DD85;
+  background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*color: var(--third-color-bg);*/
 }
 
 .porto__header-content_right-service p {
