@@ -3,6 +3,7 @@ import headerImage from "../../assets/images/header.png";
 import { AiFillFilePdf } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
+import Fade from 'react-reveal/Fade'
 
 import reactIcon from "../../assets/images/react-icon.png";
 import "./header.css";
@@ -10,11 +11,6 @@ import "./header.css";
 import pdf from "../../assets/pdf/Juan Angela Alma.pdf"
 
 const Header = () => {
-
-    useEffect(() => {
-      console.log(window.scrollY)
-    }, [])
-
   return (
     <header id="home" className="porto__header">
       <div className="porto__header-back">
@@ -23,7 +19,8 @@ const Header = () => {
         </div>
       </div>
       <div className="porto__header-content section__padding">
-        <div className="porto__header-content_left">
+        <Fade duration={500} bottom>
+            <div className="porto__header-content_left">
           <div className="porto__header-content_left-title">
             <span>I'm</span>
             <h1>Juan Angela Alma</h1>
@@ -34,15 +31,19 @@ const Header = () => {
             team. Have experience with modern software development
           </p>
         </div>
+        </Fade>
         <div className="porto__header-content_right">
-          <div className="porto__header-content_right-service">
+          <Fade duration={500} delay={500} bottom>
+            <div className="porto__header-content_right-service">
             <h5>Service</h5>
             <p>
               Let's create and develop software that is of good quality, modern,
               beautiful, and according to business needs with me
             </p>
           </div>
-          <div className="porto__header-content_right-interest">
+          </Fade>
+          <Fade duration={500} delay={1000} bottom>
+            <div className="porto__header-content_right-interest">
             <h5>My Interests</h5>
             <div className="porto__header-content_right-interest_list">
               <img src={reactIcon} alt="React Icon" />
@@ -61,6 +62,7 @@ const Header = () => {
               </a>
             </div>
           </div>
+            </Fade>
         </div>
       </div>
     </header>

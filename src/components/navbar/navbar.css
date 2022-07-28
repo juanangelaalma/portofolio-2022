@@ -1,7 +1,7 @@
 .porto__navbar {
   display: flex;
   align-items: center;
-  padding: 2rem 6rem;
+  padding: 1rem 6rem;
   position: sticky;
   top: 0;
   z-index: 20;
@@ -92,6 +92,12 @@
 
 .porto__navbar-menu_container p {
   margin: 1rem 0;
+}
+
+.glassEffect {
+  background: rgba( 50, 54, 71, 0.6 );
+  backdrop-filter: blur( 18px );
+  -webkit-backdrop-filter: blur( 18px );
 }
 
 @media screen and (max-width: 1050px) {
