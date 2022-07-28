@@ -37,6 +37,7 @@
   width: 80%;
   border: none;
   background-color: var(--third-color-bg);
+  animation: lineAnimation 1000ms;
 }
 
 @media (min-width: 768px) {

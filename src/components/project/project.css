@@ -21,6 +21,7 @@
   object-fit: cover;
   object-position: top;
   height: 100%;
+  animation: fadeIn 700ms;
 }
 
 .porto__portofolio-list_project-content {

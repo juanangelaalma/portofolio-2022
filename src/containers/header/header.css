@@ -1,5 +1,6 @@
 .porto__header {
   position: relative;
+  animation: fadeIn 1000ms;
 }
 
 .porto__header-back {
@@ -67,6 +68,8 @@
   background-color: var(--third-color-bg);
   width: 70%;
   margin-left: 0;
+
+  animation: lineAnimation 1000ms;
 }
 
 .porto__header-content_left p {
@@ -196,7 +199,6 @@
 
   .porto__header-content_right-service, .porto__header-content_right-interest {
     width: 80%;
-    animation: scale-up-center 300ms;
     animation-delay: 300ms;
   }
 
