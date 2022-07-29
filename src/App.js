@@ -1,10 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from './components/navbar/Navbar'
 
 import "./App.css"
 import { Contact, Footer, Header, Portofolio } from './containers'
+import ReactGA from 'react-ga';
 
 const App = () => {
+
+  useEffect(() => {
+    ReactGA.initialize('UA-236024154-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, [])
   return (
     <div className='App'>
       <Navbar />
