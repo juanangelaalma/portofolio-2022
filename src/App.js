@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import "./App.css"
 import { Contact, Footer, Header, Portofolio } from './containers'
 import ReactGA from 'react-ga';
+import FixedInformations from "./components/fixed_informations/FixedInformations";
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
       <main>
         <Portofolio />
         <Contact />
+        <FixedInformations />
       </main>
       <Footer />
     </div>

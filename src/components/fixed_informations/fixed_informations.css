@@ -1,0 +1,42 @@
+.fixed__informations-email {
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    left: -7rem;
+    bottom: 170px;
+    color: white;
+    z-index: 30;
+    transform: rotate(-90deg);
+    font-family: var(--font-family);
+    width: auto;
+}
+
+.fixed__informations-email hr {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.fixed__informations-email:hover {
+    background: #00DD85;
+    background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.fixed__informations-email:hover hr {
+    background: #00DD85;
+    background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
+    border: none;
+    height: 1px;
+}
+
+@media (max-width: 700px) {
+    .fixed__informations-email {
+        position: fixed;
+        /*left: -8.2rem;*/
+        left: auto;
+        right: -8.2rem;
+        /*font-size: 10px;*/
+    }
+}
