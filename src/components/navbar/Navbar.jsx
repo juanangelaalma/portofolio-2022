@@ -7,21 +7,21 @@ import "./navbar.css";
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 import { BsMedium } from 'react-icons/bs';
 
-const Menu = () => (
+const Menu = ({ active, setActive }) => (
   <>
     <Fade duration={500} top>
-      <p className="active">
-        <a href="#home">Home</a>
+      <p className={active === 'home' ? "active" : ''}>
+        <a onClick={() => setActive('home')} href="#home">Home</a>
       </p>
     </Fade>
     <Fade duration={700} top>
-      <p>
-        <a href="#portofolio">Portofolio</a>
+      <p className={active === 'portfolio' ? "active" : ''}>
+        <a onClick={() => setActive('portfolio')} href="#portfolio">Portfolio</a>
       </p>
     </Fade>
     <Fade duration={900} top>
-      <p>
-        <a href="#contact">Contact</a>
+      <p className={active === 'contact' ? "active" : ''}>
+        <a onClick={() => setActive('contact')} href="#contact">Contact</a>
       </p>
     </Fade>
     {/* <p>
@@ -32,6 +32,7 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [active, setActive] = useState('home')
 
   useEffect(() => {
     const navbar = document.querySelector('.porto__navbar')
@@ -53,7 +54,7 @@ const Navbar = () => {
           </div>
         </Fade>
         <div className="porto__navbar-links_container">
-          <Menu />
+          <Menu active={active} setActive={setActive} />
         </div>
       </div>
       <div className="porto__navbar-media">
@@ -84,7 +85,7 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="porto__navbar-menu_container scale-up-center">
             <div className="porto__navbar-menu_container-links">
-              <Menu />
+              <Menu active={active} setActive={setActive} />
             </div>
           </div>
         )}

@@ -52,8 +52,8 @@ const projects = [
 
 const Portofolio = () => {
   return (
-    <section id="portofolio" className="porto__portofolio section__padding">
-      <HeaderOfList title="My Portofolio" ulrshowmore="https://github.com/juanangelaalma"/>
+    <section id="portfolio" className="porto__portofolio section__padding">
+      <HeaderOfList title="My Portfolio" ulrshowmore="https://github.com/juanangelaalma"/>
       <div className="porto_portofolio-list">
         { projects.map((p, index) => (
           <Project key={index} img={p.img} title={p.title} desc={p.desc} url={p.url} />

@@ -28,7 +28,7 @@ const Header = () => {
           </div>
           <p>
             A software developer who has a high passion for learning with a
-            team. Have experience with modern software development
+            team👋. Have experience with modern software development🔭
           </p>
         </div>
         </Fade>
@@ -37,8 +37,8 @@ const Header = () => {
             <div className="porto__header-content_right-service">
             <h5>Service</h5>
             <p>
-              Let's create and develop software that is of good quality, modern,
-              beautiful, and according to business needs with me
+              Let's create and develop software💡that is of good quality, modern,
+              beautiful, and according to business needs with me💻
             </p>
           </div>
           </Fade>
