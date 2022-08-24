@@ -13,8 +13,7 @@ const Project = ({ img, title, desc, url }) => {
       </div>
       <div className="porto__portofolio-list_project-content">
         <h1>{ title }</h1>
-        <p>
-          { desc }
+        <p dangerouslySetInnerHTML={{__html: desc}}>
         </p>
       </div>
     </a>
