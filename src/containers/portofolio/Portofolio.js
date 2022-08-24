@@ -24,7 +24,7 @@ const projects = [
   {
     img: img2,
     title: "El Muna Company Profile",
-    desc: "A company profile and blog for <span class='styling__text'>Masjid Agung Al Munawwar Tulungagung</span> 🕌. This website was built with <span class='styling__text'>ReactJS</span> for frontend and <span class='styling__text'>Laravel</span> for backend. ",
+    desc: "A company profile and blog for Masjid Agung <span class='styling__text'>Al Munawwar</span> Tulungagung 🕌. This website was built with <span class='styling__text'>ReactJS</span> for frontend and <span class='styling__text'>Laravel</span> for backend. ",
     url: "http://almunawwartulungagung.online/"
   },
   {

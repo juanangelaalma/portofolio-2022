@@ -60,7 +60,6 @@
   background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
 }
 
 @media (min-width: 768px) {
