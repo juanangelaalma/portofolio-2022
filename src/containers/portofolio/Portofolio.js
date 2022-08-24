@@ -67,7 +67,7 @@ const projects = [
     img: img9,
     title: "Drum Simulator",
     desc: "A website that <span class='styling__text'>simulates</span> a drum 🥁. Can be operate with keyboard ⌨️. Build with <span class='styling__text'>ReactJS</span>",
-    url: "https://codepen.io/juanalma/full/zYzYEZv"
+    url: "https://codepen.io/juanalma/full/KKqpjWj"
   }
 ]
 
