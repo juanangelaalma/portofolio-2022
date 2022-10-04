@@ -15,7 +15,7 @@
   line-height: 90px;
   margin-bottom: 1rem;
 
-  color: #FFFFFF;
+  color: var(--color-title);
 }
 
 .porto__contact-img {

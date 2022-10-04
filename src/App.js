@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import Navbar from './components/navbar/Navbar'
 
 import "./App.css"
-import { Contact, Footer, Header, Portofolio } from './containers'
+import { Blog, Contact, Footer, Header, Portofolio } from './containers'
 import ReactGA from 'react-ga';
 import FixedInformations from "./components/fixed_informations/FixedInformations";
 
@@ -20,6 +20,7 @@ const App = () => {
         <Portofolio />
         <Contact />
         <FixedInformations />
+        <Blog />
       </main>
       <Footer />
     </div>

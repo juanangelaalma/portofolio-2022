@@ -13,6 +13,7 @@ import img6 from "../../assets/images/projects/project6.jpeg"
 import img7 from "../../assets/images/projects/project7.jpg"
 import img8 from "../../assets/images/projects/project8.jpg"
 import img9 from "../../assets/images/projects/project9.jpg"
+import { useEffect } from "react";
 
 const projects = [
   {
@@ -72,6 +73,7 @@ const projects = [
 ]
 
 const Portofolio = () => {
+  useEffect(() => console.log('portofolio'), [])
   return (
     <section id="portfolio" className="porto__portofolio section__padding">
       <HeaderOfList title="My Portfolio" ulrshowmore="https://github.com/juanangelaalma"/>
