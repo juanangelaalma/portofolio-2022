@@ -50,7 +50,7 @@
 
   /*color: var(--third-color-bg);*/
   background: #00DD85;
-  background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
+  background: linear-gradient(126deg, rgba(39,205,253,1) 0%, rgba(173,45,255,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -73,7 +73,7 @@
   width: 70%;
   margin-left: 0;
   background: #00DD85;
-  background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
+  background: linear-gradient(126deg, rgba(39,205,253,1) 0%, rgba(173,45,255,1) 100%);
 
   animation: lineAnimation 1000ms;
 }
@@ -121,7 +121,7 @@
   line-height: 45px;
   /* identical to box height, or 188% */
   background: #00DD85;
-  background: linear-gradient(to right, #00DD85 0%, #00ABD0 100%);
+  background: linear-gradient(126deg, rgba(39,205,253,1) 0%, rgba(173,45,255,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /*color: var(--third-color-bg);*/
