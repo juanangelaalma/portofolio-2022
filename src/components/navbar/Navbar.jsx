@@ -5,7 +5,8 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/png/logo.png";
 import "./navbar.css";
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
-import { BsMedium } from 'react-icons/bs';
+import { BsMedium, BsSun } from 'react-icons/bs';
+import { FiMoon } from 'react-icons/fi';
 
 const Menu = ({ active, setActive }) => (
   <>
@@ -33,6 +34,7 @@ const Menu = ({ active, setActive }) => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [active, setActive] = useState('home')
+  const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
     const navbar = document.querySelector('.porto__navbar')
@@ -68,6 +70,7 @@ const Navbar = () => {
         <a target="__blank" href="https://medium.com/@juanalma">
           <BsMedium size={24} />
         </a>
+          { isDark ? <BsSun onClick={() => setIsDark(false)} size={24} /> : <FiMoon onClick={() => setIsDark(true)} size={24} /> }
         </Fade>
       </div>
       <div className="porto__navbar-menu">
