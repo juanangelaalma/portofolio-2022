@@ -70,7 +70,7 @@ const Navbar = () => {
         <a target="__blank" href="https://medium.com/@juanalma">
           <BsMedium size={24} />
         </a>
-          { isDark ? <BsSun onClick={() => setIsDark(false)} size={24} /> : <FiMoon onClick={() => setIsDark(true)} size={24} /> }
+          {/* { isDark ? <BsSun onClick={() => setIsDark(false)} size={24} /> : <FiMoon onClick={() => setIsDark(true)} size={24} /> } */}
         </Fade>
       </div>
       <div className="porto__navbar-menu">
