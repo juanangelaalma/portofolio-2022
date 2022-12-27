@@ -1,7 +1,7 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 
-import contactImage from "../../assets/images/contact.png";
+import contactImage from "../../assets/images/contact2.png";
 import "./contact.css";
 
 const Contact = () => {
