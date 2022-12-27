@@ -13,6 +13,9 @@ import img6 from "../../assets/images/projects/project6.jpeg"
 import img7 from "../../assets/images/projects/project7.jpg"
 import img8 from "../../assets/images/projects/project8.jpg"
 import img9 from "../../assets/images/projects/project9.jpg"
+import img10 from "../../assets/images/projects/project10.jpg"
+import img11 from "../../assets/images/projects/project11.jpg"
+import img12 from "../../assets/images/projects/project12.jpg"
 import { useEffect } from "react";
 
 const projects = [
@@ -69,7 +72,25 @@ const projects = [
     title: "Drum Simulator",
     desc: "A website that <span class='styling__text'>simulates</span> a drum 🥁. Can be operate with keyboard ⌨️. Build with <span class='styling__text'>ReactJS</span>",
     url: "https://codepen.io/juanalma/full/KKqpjWj"
-  }
+  },
+  {
+    img: img10,
+    title: "Medicine Web Template",
+    desc: "The web medicine template 🧑‍⚕️ is a <span class='styling__text'>responsive</span> and user-friendly website designed using <span class='styling__text'>Bootstrap 5</span>. It is an ideal platform for healthcare professionals and medical organizations to showcase their services and information online. 🩺",
+    url: "https://medical-uts.vercel.app/"
+  },
+  {
+    img: img11,
+    title: "Teeth.id",
+    desc: "Teeth.id is a web-based <span class='styling__text'>dental</span> clinic project 🩺 that aims to provide a comprehensive platform for dental care and education 🦷. The platform includes several features such as a <span class='styling__text'>forum, an article section, and a consultation booking</span> feature⌚",
+    url: "https://medical-uts.vercel.app/"
+  },
+  {
+    img: img12,
+    title: "Volunteer Peduly",
+    desc: "The website is a platform that hosts a list of data on <span class='styling__text'>volunteers</span> 😎. The purpose of the website is to connect volunteers with organizations or individuals who are in need of their <span class='styling__text'>services</span>😍.",
+    url: "https://medical-uts.vercel.app/"
+  },
 ]
 
 const Portofolio = () => {

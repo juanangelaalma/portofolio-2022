@@ -75,12 +75,14 @@
   margin-left: 0;
   background: #00DD85;
   background: linear-gradient(126deg, rgba(39,205,253,1) 0%, rgba(173,45,255,1) 100%);
-
+  z-index: 1;
+  position: absolute;
+  margin-bottom: 0;
   animation: lineAnimation 1000ms;
 }
 
 .porto__header-content_left p {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;

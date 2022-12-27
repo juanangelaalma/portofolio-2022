@@ -8,8 +8,6 @@ import Fade from 'react-reveal/Fade'
 import reactIcon from "../../assets/images/react-icon.png";
 import "./header.css";
 
-import pdf from "../../assets/pdf/Juan Angela Alma.pdf"
-
 const Header = () => {
   return (
     <header id="home" className="porto__header">
@@ -47,7 +45,7 @@ const Header = () => {
             <h5>My Interests</h5>
             <div className="porto__header-content_right-interest_list">
               <img src={reactIcon} alt="React Icon" />
-              <span>Web Development</span>
+              <span>Software Engineer</span>
             </div>
             <div className="porto__header-content_right-interest_cta">
               <a href="/cv/juan-angela-alma.pdf" target="__blank" className="btn-main">
