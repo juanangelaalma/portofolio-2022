@@ -83,13 +83,13 @@ const projects = [
     img: img11,
     title: "Teeth.id",
     desc: "Teeth.id is a web-based <span class='styling__text'>dental</span> clinic project 🩺 that aims to provide a comprehensive platform for dental care and education 🦷. The platform includes several features such as a <span class='styling__text'>forum, an article section, and a consultation booking</span> feature⌚",
-    url: "https://medical-uts.vercel.app/"
+    url: "https://github.com/juanangelaalma/teeth.id"
   },
   {
     img: img12,
     title: "Volunteer Peduly",
     desc: "The website is a platform that hosts a list of data on <span class='styling__text'>volunteers</span> 😎. The purpose of the website is to connect volunteers with organizations or individuals who are in need of their <span class='styling__text'>services</span>😍.",
-    url: "https://medical-uts.vercel.app/"
+    url: "https://volunteer.peduly.com/"
   },
 ]
 
