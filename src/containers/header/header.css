@@ -22,8 +22,9 @@
 }
 
 .porto__header-image img {
-  width: 75%;
+  width: 94%;
   z-index: 2;
+  margin-bottom: -2rem;
 }
 
 .porto__header-content {

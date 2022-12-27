@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import headerImage from "../../assets/images/header.png";
+import headerImage from "../../assets/images/header2.png";
 import { AiFillFilePdf } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
