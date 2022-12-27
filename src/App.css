@@ -29,8 +29,8 @@ a {
   line-height: 45px;
     /*background: var(--third-color-bg);*/
   /* or 188% */
-  background: rgb(0,221,133);
-  background: linear-gradient(90deg, rgba(0,221,133,1) 0%, rgba(0,171,208,1) 100%);
+  background: rgb(173,45,255);
+  background: linear-gradient(126deg, rgba(173,45,255,1) 0%, rgba(39,205,253,1) 100%);
   color: #FFFFFF;
   border: none;
   outline: none;
@@ -42,8 +42,8 @@ a {
 }
 
 .btn-main:hover {
-  background: rgb(0,171,208);
-  background: linear-gradient(90deg, rgba(0,171,208,1) 0%, rgba(0,221,133,1) 100%);
+  background: rgb(173,45,255);
+  background: linear-gradient(126deg, rgba(39,205,253,1) 0%, rgba(173,45,255,1) 100%);
   /*background: var(--third-hover-color-bg);*/
 }
 
