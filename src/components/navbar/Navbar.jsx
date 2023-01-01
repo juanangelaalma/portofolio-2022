@@ -12,7 +12,7 @@ const Menu = ({ active, setActive }) => (
   <>
     <Fade duration={500} top>
       <p className={active === 'home' ? "active" : ''}>
-        <a onClick={() => setActive('home')} href="#home">Home</a>
+        <a onClick={() => setActive('home')} href="#home">About Me</a>
       </p>
     </Fade>
     <Fade duration={700} top>
