@@ -94,7 +94,6 @@ const projects = [
 ]
 
 const Portofolio = () => {
-  useEffect(() => console.log('portofolio'), [])
   return (
     <section id="portfolio" className="porto__portofolio section__padding">
       <HeaderOfList title="My Portfolio" ulrshowmore="https://github.com/juanangelaalma"/>

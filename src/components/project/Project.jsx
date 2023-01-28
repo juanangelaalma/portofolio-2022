@@ -1,6 +1,4 @@
-import axios from "axios";
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React from "react";
 import LazyLoad from 'react-lazy-load';
 
 import "./project.css";
@@ -9,7 +7,7 @@ const Project = ({ img, title, desc, url }) => {
   return (
     <a target="__blank" href={url} className="porto__portofolio-list_project">
       <div className="porto__portofolio-list_project-img">
-          <LazyLoad height={180} offsetVertical={300}>
+          <LazyLoad height={180} once={true} offsetVertical={300}>
               <img src={img} alt={title} />
           </LazyLoad>
       </div>

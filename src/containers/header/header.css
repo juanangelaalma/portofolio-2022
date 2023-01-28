@@ -78,7 +78,6 @@
   z-index: 1;
   position: absolute;
   margin-bottom: 0;
-  animation: lineAnimation 1000ms;
 }
 
 .porto__header-content_left p {
