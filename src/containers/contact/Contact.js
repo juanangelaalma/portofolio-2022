@@ -1,14 +1,14 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 
-import contactImage from "../../assets/images/contact2.png";
+import contactImage from "../../assets/images/contact2.webp";
 import "./contact.css";
 
 const Contact = () => {
   return (
     <section id="contact" className="porto__contact section__padding">
       <div className="porto__contact-img">
-        <img src={contactImage} alt="Juan Angela Alma" />
+        <img height="auto" width="100%" src={contactImage} alt="Juan Angela Alma" />
         <hr/>
       </div>
       <div className="porto__contact-content">

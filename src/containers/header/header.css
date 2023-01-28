@@ -182,14 +182,20 @@
   cursor: pointer;
 }
 
+.porto__header-content_right-interest_cta a {
+  margin: 0 0.5rem;
+}
+
+.porto__header-content_right-interest_cta a:first-child {
+  margin-left: 0;
+}
+
 .porto__header-content_right-interest_cta svg {
   color: var(--color-text);
-  margin-left: 1rem;
   cursor: pointer;
 }
 
 .porto__header-content_right-interest_cta button svg {
-  margin-right: 10px;
   margin-left: 0;
   color: #FFFFFF;
 }

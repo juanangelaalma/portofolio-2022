@@ -52,10 +52,10 @@ const Header = () => {
                 {" "}
                 <AiFillFilePdf size={20} /> Download CV
               </a>
-              <a target="__blank" href="https://www.instagram.com/juanalmaa/">
+              <a target="__blank" aria-label="Go to my instagram profile" href="https://www.instagram.com/juanalmaa/">
               <BsInstagram size={30} />
               </a>
-              <a target="__blank" href="https://t.me/juanalmaa">
+              <a target="__blank" aria-label="Go to my telegram profile" href="https://t.me/juanalmaa">
               <FaTelegramPlane size={30} />
               </a>
             </div>

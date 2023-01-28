@@ -16,7 +16,7 @@ const Footer = () => {
         <h1>Made with</h1>
         <div className="porto__footer-made_logo">
           <AiFillHeart size={45} color="#FF0000" />
-          <img src={reactIcon} alt="React Icon" />
+          <img src={reactIcon} width={43} height={43} alt="React Icon" />
         </div>
       </div>
     </footer>

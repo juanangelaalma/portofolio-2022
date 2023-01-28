@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import { useState } from "react";
 import Fade from 'react-reveal/Fade';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/png/logo.png";
+import logo from "../../assets/images/logo.webp";
 import "./navbar.css";
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 import { BsMedium, BsSun } from 'react-icons/bs';
@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className="porto__navbar-links">
         <Fade top duration={300}>
           <div className="porto__navbar-links_logo">
-            <img src={logo} alt="logo" />
+            <img src={logo} height="auto" width="200" alt="logo" />
           </div>
         </Fade>
         <div className="porto__navbar-links_container">
@@ -61,13 +61,13 @@ const Navbar = () => {
       </div>
       <div className="porto__navbar-media">
         <Fade duration={1100} top>
-          <a target="__blank" href="https://github.com/juanangelaalma">
+          <a target="__blank" aria-label="Go to my github profile" href="https://github.com/juanangelaalma">
             <AiFillGithub size={24} />
           </a>
-        <a target="__blank" href="https://www.linkedin.com/in/juanangelaalma/">
+        <a target="__blank" aria-label="Go to my linkedin profile" href="https://www.linkedin.com/in/juanangelaalma/">
           <AiFillLinkedin size={24} />
         </a>
-        <a target="__blank" href="https://medium.com/@juanalma">
+        <a target="__blank" aria-label="Go to my medium profile" href="https://medium.com/@juanalma">
           <BsMedium size={24} />
         </a>
           {/* { isDark ? <BsSun onClick={() => setIsDark(false)} size={24} /> : <FiMoon onClick={() => setIsDark(true)} size={24} /> } */}
