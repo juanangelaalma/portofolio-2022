@@ -5,6 +5,7 @@
 }
 
 .main-project__wrapper {
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
 }
@@ -16,6 +17,7 @@
 .main-project__wrapper-img img {
   height: auto;
   width: 100%;
+  border-radius: 5px;
 }
 
 .main-project__wrapper-description {
@@ -74,10 +76,16 @@
     flex-direction: row;
   }
   .main-project__wrapper-img {
-    max-width: 55%;
+    width: 55%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .main-project__wrapper-img img {
+    width: 100%;
   }
   .main-project__wrapper-description {
     align-items: end;
+    width: 45%;
   }
   .main-project__wrapper-description {
     margin-left: 2rem;
