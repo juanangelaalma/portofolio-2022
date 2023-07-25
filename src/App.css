@@ -110,6 +110,11 @@ a {
   }
 }
 
+.App {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

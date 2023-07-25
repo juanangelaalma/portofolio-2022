@@ -38,7 +38,8 @@
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
-  line-height: 48px;
+  line-height: 30px;
+  margin-bottom: 0.6rem;
   /* identical to box height, or 200% */
   color: #FFFFFF;
 }
@@ -78,7 +79,7 @@
 
 @media (min-width: 1200px) {
   .porto__portofolio-list_project {
-    max-width: 364px;
+    max-width: 30%;
   }
 }
 
