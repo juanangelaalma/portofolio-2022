@@ -6,6 +6,7 @@ import { Blog, Contact, Footer, Header, Portofolio } from "./containers";
 import ReactGA from "react-ga";
 import FixedInformations from "./components/fixed_informations/FixedInformations";
 import Spinner from "./components/spinner/Spinner";
+import MainProjects from "./containers/overview/MainProjects";
 
 const App = () => {
   const [loading, setLoading] = React.useState(true);
@@ -34,6 +35,7 @@ const App = () => {
           <Navbar />
           <Header />
           <main>
+            <MainProjects />
             <Portofolio />
             <Contact />
             <FixedInformations />
