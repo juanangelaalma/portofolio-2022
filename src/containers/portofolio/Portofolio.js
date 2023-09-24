@@ -96,7 +96,7 @@ const projects = [
 const Portofolio = () => {
   return (
     <section id="portfolio" className="porto__portofolio section__padding">
-      <HeaderOfList title="My Portfolio" ulrshowmore="https://github.com/juanangelaalma"/>
+      <HeaderOfList title="Others" ulrshowmore="https://github.com/juanangelaalma"/>
       <div className="porto_portofolio-list">
         { projects.map((p, index) => (
           <Project key={index} img={p.img} title={p.title} desc={p.desc} url={p.url} />
