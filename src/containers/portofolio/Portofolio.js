@@ -23,31 +23,34 @@ const projects = [
     img: img1,
     title: "My Shop E-Commerce",
     desc: "An <span class='styling__text'>E-Commerce</span> website was built with <span class='styling__text'>ReactJS</span> and API from <span class='styling__text'>Fakestoreapi</span> 🩳. This website implements async state management with <span class='styling__text'>Redux-Thunk</span>💍.",
-    url: "https://myshoppp.netlify.app/"
+    url: "https://myshoppp.netlify.app/",
+    github: "https://github.com/juanangelaalma/myshop"
   },
   {
     img: img2,
     title: "El Muna Company Profile",
     desc: "A company profile and blog for Masjid Agung <span class='styling__text'>Al Munawwar</span> Tulungagung 🕌. This website was built with <span class='styling__text'>ReactJS</span> for frontend and <span class='styling__text'>Laravel</span> for backend. ",
-    url: "http://almunawwartulungagung.online/"
+    url: "http://almunawwartulungagung.online/",
+    github: "https://github.com/juanangelaalma/elmuna"
   },
   {
     img: img3,
     title: "Landing page",
     desc: "A beautiful landing page built with <span class='styling__text'>React JS</span> and pure <span class='styling__text'>CSS</span> without any framework👩‍🦳",
-    url: "https://modern-new.netlify.app"
+    url: "https://modern-new.netlify.app",
+    github: "https://github.com/juanangelaalma/modern-ui-gpt3"
   },
   {
     img: img4,
     title: "Bumil Sehat",
     desc: "<span class='styling__text'>Bumil Sehat</span> is an application for pregnant women in order to <span class='styling__text'>maintain</span> their pregnancy 🤰. Has a pregnancy <span class='styling__text'>reminder</span> feature that will be sent via email 📧. There are also features for <span class='styling__text'>quizzes</span> and <span class='styling__text'>evaluations</span>. Also has a feature to view pregnancy <span class='styling__text'>material</span>",
-    url: "https://bumilsehat.com"
+    url: "https://siagastunting.com",
   },
   {
     img: img5,
     title: "Lab Management System",
     desc: "<span class='styling__text'>Lab Management System</span> is a website for a list of visits, inventory, users 🧪. There are two roles, namely staff and guest🧑‍🏭",
-    url: "https://lms-kel-8.herokuapp.com/"
+    github: "https://github.com/juanangelaalma/lab-management-system"
   },
   {
     img: img6,
@@ -59,31 +62,35 @@ const projects = [
     img: img7,
     title: "Gulu Gulu",
     desc: "Gulu Gulu is a <span class='styling__text'>Google Clone</span> website that uses google public API 💻. Build with <span class='styling__text'>ReactJS</span> and <span class='styling__text'>TailwindCSS</span>. Has fiture light mode and dark mode 🌓.",
-    url: "https://gulugulu.vercel.app/"
+    url: "https://gulugulu.vercel.app/",
+    github: "https://github.com/juanangelaalma/gulugulu"
   },
   {
     img: img8,
     title: "Markdown Previewer",
     desc: "A website <span class='styling__text'>markdown</span> that can previews <span class='styling__text'>Markdown</span> text ✒️. Build with <span class='styling__text'>ReactJS</span>",
-    url: "https://codepen.io/juanalma/full/zYzYEZv"
+    url: "https://codepen.io/juanalma/full/zYzYEZv",
+    github: "https://github.com/juanangelaalma/markdown-preview"
   },
   {
     img: img9,
     title: "Drum Simulator",
     desc: "A website that <span class='styling__text'>simulates</span> a drum 🥁. Can be operate with keyboard ⌨️. Build with <span class='styling__text'>ReactJS</span>",
-    url: "https://codepen.io/juanalma/full/KKqpjWj"
+    url: "https://codepen.io/juanalma/full/KKqpjWj",
+    github: "https://github.com/juanangelaalma/drum-machine-freecodecamp"
   },
   {
     img: img10,
     title: "Medicine Web Template",
     desc: "The web medicine template 🧑‍⚕️ is a <span class='styling__text'>responsive</span> and user-friendly website designed using <span class='styling__text'>Bootstrap 5</span>. It is an ideal platform for healthcare professionals and medical organizations to showcase their services and information online. 🩺",
-    url: "https://medical-uts.vercel.app/"
+    url: "https://medical-uts.vercel.app/",
+    github: "https://github.com/juanangelaalma/medical"
   },
   {
     img: img11,
     title: "Teeth.id",
     desc: "Teeth.id is a web-based <span class='styling__text'>dental</span> clinic project 🩺 that aims to provide a comprehensive platform for dental care and education 🦷. The platform includes several features such as a <span class='styling__text'>forum, an article section, and a consultation booking</span> feature⌚",
-    url: "https://github.com/juanangelaalma/teeth.id"
+    github: "https://github.com/juanangelaalma/teeth.id"
   },
   {
     img: img12,
@@ -99,7 +106,7 @@ const Portofolio = () => {
       <HeaderOfList title="Others" ulrshowmore="https://github.com/juanangelaalma"/>
       <div className="porto_portofolio-list">
         { projects.map((p, index) => (
-          <Project key={index} img={p.img} title={p.title} desc={p.desc} url={p.url} />
+          <Project key={index} img={p.img} title={p.title} desc={p.desc} url={p.url} video={p.video} github={p.github} />
         )) }
       </div>
     </section>

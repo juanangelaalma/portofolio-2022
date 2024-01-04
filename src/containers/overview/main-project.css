@@ -66,6 +66,10 @@
   margin-top: 1rem;
 }
 
+.main-project__wrapper-description_content-links a {
+  margin-left: 0.6rem;
+}
+
 .main-project__wrapper-description_tools {
   margin-top: 0.8rem;
 }
