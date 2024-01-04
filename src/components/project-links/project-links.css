@@ -1,0 +1,10 @@
+.project-links__wrapper a {
+  margin-left: 0.3rem;
+  color: var(--color-text);
+  opacity: .5;
+  transition: 500ms;
+}
+
+.project-links__wrapper a:hover {
+  opacity: 1;
+}

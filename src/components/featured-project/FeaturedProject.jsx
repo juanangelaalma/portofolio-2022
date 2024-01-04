@@ -1,6 +1,7 @@
 import React from 'react'
+import ProjectLinks from '../project-links/ProjectLinks'
 
-const FeaturedProject = ({ image, title, description, stacks }) => {
+const FeaturedProject = ({ image, title, description, stacks, url, video, github }) => {
   const arrayOfStacks = stacks.split(',')
   return (
     <div className="main-project__wrapper">
@@ -11,9 +12,10 @@ const FeaturedProject = ({ image, title, description, stacks }) => {
         <div className="main-project__wrapper-description">
           <p className="main-project__wrapper-description_badge">Featured Project</p>
           <h4 className="main-project__wrapper-description_title">{ title }</h4>
-          <p className="main-project__wrapper-description_paragraph">
-            { description }
-          </p>
+          <div className="main-project__wrapper-description_content">
+            <p>{ description }</p>
+            <ProjectLinks video={video} github={github} url={url} className="main-project__wrapper-description_content-links" />
+          </div>
           <div className="main-project__wrapper-description_tools">
             { arrayOfStacks.map(stack => (
               <span>{ stack }</span>

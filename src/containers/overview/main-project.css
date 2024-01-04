@@ -50,7 +50,7 @@
   margin-top: 0.8rem;
 }
 
-.main-project__wrapper-description_paragraph {
+.main-project__wrapper-description_content {
   color: var(--color-text);
   font-weight: 500;
   font-size: 14px;
@@ -62,6 +62,9 @@
   border-radius: 5px;
 }
 
+.main-project__wrapper-description_content-links {
+  margin-top: 1rem;
+}
 
 .main-project__wrapper-description_tools {
   margin-top: 0.8rem;
@@ -111,7 +114,7 @@
   .main-project__wrapper-description {
     margin-left: 2rem;
   }
-  .main-project__wrapper-description_paragraph {
+  .main-project__wrapper-description_content {
     text-align: right;
   }
   .main-project__wrapper:nth-of-type(odd) .main-project__wrapper-img {
@@ -122,7 +125,7 @@
     margin-left: 0rem;
     margin-right: 2rem;
   }
-  .main-project__wrapper:nth-of-type(odd) .main-project__wrapper-description_paragraph {
+  .main-project__wrapper:nth-of-type(odd) .main-project__wrapper-description_content {
     text-align: left;
   }
 }

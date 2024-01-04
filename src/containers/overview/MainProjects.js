@@ -33,7 +33,7 @@ const MainProjects = () => {
     <section id="portfolio" className="main-project section__padding">
       <HeaderOfList title="Some Things I’ve Built" ulrshowmore="https://github.com/juanangelaalma"/>
       { featuredProjects.map((project, index) => (
-        <FeaturedProject key={index} image={project.image} title={project.title} stacks={project.stacks} description={project.description} />
+        <FeaturedProject key={index} image={project.image} title={project.title} stacks={project.stacks} description={project.description} url={project.url} video={project.video} github={project.github} />
       ))}
     </section>
   )

@@ -1,11 +1,12 @@
 import React from "react";
 import LazyLoad from 'react-lazy-load';
+import ProjectLinks from "../project-links/ProjectLinks";
 
 import "./project.css";
 
-const Project = ({ img, title, desc, url }) => {
+const Project = ({ img, title, desc, url, github, video }) => {
   return (
-    <a target="__blank" href={url} className="porto__portofolio-list_project">
+    <div className="porto__portofolio-list_project">
       <div className="porto__portofolio-list_project-img">
           <LazyLoad height={180} once={true} offsetVertical={300}>
               <img src={img} alt={title} />
@@ -16,7 +17,8 @@ const Project = ({ img, title, desc, url }) => {
         <p dangerouslySetInnerHTML={{__html: desc}}>
         </p>
       </div>
-    </a>
+      <ProjectLinks video={video} github={github} url={url} className="porto_portofolio-list_project-links" />
+    </div>
   );
 };
 
