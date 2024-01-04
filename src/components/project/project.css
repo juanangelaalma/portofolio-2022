@@ -74,6 +74,10 @@
   display: flex;
 }
 
+.porto_portofolio-list_project-links a {
+  margin-left: 0.6rem;
+}
+
 @media (min-width: 768px) {
   .porto__portofolio-list_project {
     max-width: 47%;
