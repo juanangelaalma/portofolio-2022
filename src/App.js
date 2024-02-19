@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "./components/navbar/Navbar";
 
 import "./App.css";
-import { Blog, Contact, Footer, Header, Portofolio } from "./containers";
+import { Contact, Footer, Header, Portofolio } from "./containers";
 import ReactGA from "react-ga";
 import FixedInformations from "./components/fixed_informations/FixedInformations";
 import Spinner from "./components/spinner/Spinner";
