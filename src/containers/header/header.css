@@ -149,6 +149,7 @@
 .porto__header-content_right-interest_list img {
   width: 43px;
   height: 43px;
+  animation: spin 3s infinite;
 }
 
 .porto__header-content_right-interest_list span {
@@ -302,5 +303,11 @@
     font-size: 14px;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+
+@keyframes spin {
+  50% {
+    transform: rotate(420deg);
   }
 }

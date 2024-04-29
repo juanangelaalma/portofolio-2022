@@ -7,6 +7,7 @@ import "./navbar.css";
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 import { BsMedium, BsSun } from 'react-icons/bs';
 import { FiMoon } from 'react-icons/fi';
+import { FaDev } from "react-icons/fa";
 
 const Menu = ({ active, setActive }) => (
   <>
@@ -23,6 +24,11 @@ const Menu = ({ active, setActive }) => (
     <Fade duration={900} top>
       <p className={active === 'contact' ? "active" : ''}>
         <a onClick={() => setActive('contact')} href="#contact">Contact</a>
+      </p>
+    </Fade>
+    <Fade duration={900} top>
+      <p className={active === 'blog' ? "active" : ''}>
+        <a onClick={() => setActive('blog')} href="#blog">Blog</a>
       </p>
     </Fade>
     {/* <p>
@@ -67,8 +73,8 @@ const Navbar = () => {
         <a target="__blank" aria-label="Go to my linkedin profile" href="https://www.linkedin.com/in/juanangelaalma/">
           <AiFillLinkedin size={24} />
         </a>
-        <a target="__blank" aria-label="Go to my medium profile" href="https://medium.com/@juanalma">
-          <BsMedium size={24} />
+        <a target="__blank" aria-label="Go to my medium profile" href="https://dev.to/juanangelaalma">
+          <FaDev size={24} />
         </a>
           {/* { isDark ? <BsSun onClick={() => setIsDark(false)} size={24} /> : <FiMoon onClick={() => setIsDark(true)} size={24} /> } */}
         </Fade>

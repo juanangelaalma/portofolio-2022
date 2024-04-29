@@ -1,24 +1,23 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import './article.css'
 
-const Article = ({ image, title, date }) => {
+const Article = ({ image, title, date, url }) => {
   return (
-    <div className='gpt3__blog-container__article'>
+    <a target='__blank' href={url} className='gpt3__blog-container__article'>
       <div className='gpt3__blog-container__article-body'>
         <div className='gpt3__blog-container__article-body__image'>
           <img src={image} alt={title} />
         </div>
         <div className="gpt3__blog-container__article-body__content">
-          <p>{ date }</p>
+          <span className='styling__text'>{ date }</span>
           <h1>{ title }</h1>
         </div>
       </div>
-      <div className='gpt3__blog-container__article-footer'>
+      {/* <div className='gpt3__blog-container__article-footer'>
         <p>Read Full Article</p>
-      </div>
-    </div>
+      </div> */}
+    </a>
   )
 }
 

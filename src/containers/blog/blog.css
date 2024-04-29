@@ -5,13 +5,13 @@
 }
 
 .gpt3__blog-header {
-  width: 70%;
+  width: 80%;
 }
 
 .gpt3__blog-header h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 62px;
+  font-size: 58px;
   line-height: 90px;
 
   letter-spacing: -0.04em;
@@ -22,7 +22,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 2rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .gpt3__blog-container__article {
@@ -58,8 +58,8 @@
 }
 
 .gpt3__blog-container__article-body__content h1 {
-  font-weight: 800;
-  font-size: 25.11px;
+  font-weight: 600;
+  font-size: 22px;
   line-height: 30px;
 }
 

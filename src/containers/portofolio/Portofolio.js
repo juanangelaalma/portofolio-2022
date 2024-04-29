@@ -16,15 +16,41 @@ import img9 from "../../assets/images/projects/project9.jpg"
 import img10 from "../../assets/images/projects/project10.jpg"
 import img11 from "../../assets/images/projects/project11.jpg"
 import img12 from "../../assets/images/projects/project12.jpg"
-import { useEffect } from "react";
+import img13 from "../../assets/images/projects/project13.jpg"
+import img14 from "../../assets/images/projects/project14.jpg"
 
 const projects = [
   {
-    img: img1,
-    title: "My Shop E-Commerce",
-    desc: "An <span class='styling__text'>E-Commerce</span> website was built with <span class='styling__text'>ReactJS</span> and API from <span class='styling__text'>Fakestoreapi</span> 🩳. This website implements async state management with <span class='styling__text'>Redux-Thunk</span>💍.",
-    url: "https://myshoppp.netlify.app/",
-    github: "https://github.com/juanangelaalma/myshop"
+    img: img13,
+    title: "Medianku.com",
+    desc: "The website functions to predict personality🎭 based on the <span class='styling__text'>Big Five Personality</span> principles5️⃣ (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism). This website is built using <span class='styling__text'>Laravel</span>.",
+    url: "https://medianku.com/",
+  },
+  {
+    img: img10,
+    title: "Medicine Web Template",
+    desc: "The web medicine template 🧑‍⚕️ is a <span class='styling__text'>responsive</span> and user-friendly website designed using <span class='styling__text'>Bootstrap 5</span>. It is an ideal platform for healthcare professionals and medical organizations to showcase their services and information online. 🩺",
+    url: "https://medical-uts.vercel.app/",
+    github: "https://github.com/juanangelaalma/medical"
+  },
+  {
+    img: img11,
+    title: "Teeth.id",
+    desc: "Teeth.id is a web-based <span class='styling__text'>dental</span> clinic project 🩺 that aims to provide a comprehensive platform for dental care and education 🦷. The platform includes several features such as a <span class='styling__text'>forum, an article section, and a consultation booking</span> feature⌚",
+    github: "https://github.com/juanangelaalma/teeth.id"
+  },
+  {
+    img: img14,
+    title: "Twibb Snap",
+    desc: "This website is an alternative to <span class='styling__text'>Twibbonize</span>🙎🏻‍♂️, featuring almost identical functionalities such as <span class='styling__text'>image upload, position adjustment, size adjustment, and download</span>📷. It is built using <span class='styling__text'>TypeScript</span>.",
+    url: "https://twibbsnap.vercel.app/",
+    github: "https://github.com/juanangelaalma/twibb-snap"
+  },
+  {
+    img: img4,
+    title: "Bumil Sehat",
+    desc: "<span class='styling__text'>Bumil Sehat</span> is an application for pregnant women in order to <span class='styling__text'>maintain</span> their pregnancy 🤰. Has a pregnancy <span class='styling__text'>reminder</span> feature that will be sent via email 📧. There are also features for <span class='styling__text'>quizzes</span> and <span class='styling__text'>evaluations</span>. Also has a feature to view pregnancy <span class='styling__text'>material</span>",
+    url: "https://siagastunting.com",
   },
   {
     img: img2,
@@ -41,10 +67,11 @@ const projects = [
     github: "https://github.com/juanangelaalma/modern-ui-gpt3"
   },
   {
-    img: img4,
-    title: "Bumil Sehat",
-    desc: "<span class='styling__text'>Bumil Sehat</span> is an application for pregnant women in order to <span class='styling__text'>maintain</span> their pregnancy 🤰. Has a pregnancy <span class='styling__text'>reminder</span> feature that will be sent via email 📧. There are also features for <span class='styling__text'>quizzes</span> and <span class='styling__text'>evaluations</span>. Also has a feature to view pregnancy <span class='styling__text'>material</span>",
-    url: "https://siagastunting.com",
+    img: img1,
+    title: "My Shop E-Commerce",
+    desc: "An <span class='styling__text'>E-Commerce</span> website was built with <span class='styling__text'>ReactJS</span> and API from <span class='styling__text'>Fakestoreapi</span> 🩳. This website implements async state management with <span class='styling__text'>Redux-Thunk</span>💍.",
+    url: "https://myshoppp.netlify.app/",
+    github: "https://github.com/juanangelaalma/myshop"
   },
   {
     img: img5,
@@ -78,19 +105,6 @@ const projects = [
     desc: "A website that <span class='styling__text'>simulates</span> a drum 🥁. Can be operate with keyboard ⌨️. Build with <span class='styling__text'>ReactJS</span>",
     url: "https://codepen.io/juanalma/full/KKqpjWj",
     github: "https://github.com/juanangelaalma/drum-machine-freecodecamp"
-  },
-  {
-    img: img10,
-    title: "Medicine Web Template",
-    desc: "The web medicine template 🧑‍⚕️ is a <span class='styling__text'>responsive</span> and user-friendly website designed using <span class='styling__text'>Bootstrap 5</span>. It is an ideal platform for healthcare professionals and medical organizations to showcase their services and information online. 🩺",
-    url: "https://medical-uts.vercel.app/",
-    github: "https://github.com/juanangelaalma/medical"
-  },
-  {
-    img: img11,
-    title: "Teeth.id",
-    desc: "Teeth.id is a web-based <span class='styling__text'>dental</span> clinic project 🩺 that aims to provide a comprehensive platform for dental care and education 🦷. The platform includes several features such as a <span class='styling__text'>forum, an article section, and a consultation booking</span> feature⌚",
-    github: "https://github.com/juanangelaalma/teeth.id"
   },
   {
     img: img12,
