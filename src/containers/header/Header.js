@@ -48,7 +48,7 @@ const Header = () => {
               <span>Software Engineer</span>
             </div>
             <div className="porto__header-content_right-interest_cta">
-              <a href="/cv/juan-angela-alma.pdf" target="__blank" className="btn-main">
+              <a href="/cv/20-05-24-juan-angela-alma.pdf" target="__blank" className="btn-main">
                 {" "}
                 <AiFillFilePdf size={20} /> Download CV
               </a>
