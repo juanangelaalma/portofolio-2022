@@ -16,7 +16,7 @@ const Blog = () => {
           url="https://dev.to/juanangelaalma/solid-principle-3kpl"
         />
         <Article
-          image="https://media.licdn.com/dms/image/D5612AQFAze1UgTGEGg/article-cover_image-shrink_423_752/0/1681368095917?e=1720051200&v=beta&t=j_8JB1pOUpzVF_lOUHV4rbkG8DqBFG97NHWm4y-wHuY"
+          image="https://media.licdn.com/dms/image/D5612AQFAze1UgTGEGg/article-cover_image-shrink_720_1280/0/1681368095917?e=1726099200&v=beta&t=81cNYZeQ2iLHoyc-01u7Jc2GwJ4uJjFuYbmHhh4DT6Y"
           title="5 Ways of Adaptability: Surviving and Thriving in the Bangkit Program"
           date="Apr 13, 2023"
           url="https://www.linkedin.com/pulse/5-ways-adaptability-surviving-thriving-bangkit-juan-angela-alma/?trackingId=3KEQgnfpKIycR6voWalwbA%3D%3D"
