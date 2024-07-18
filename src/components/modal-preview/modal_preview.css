@@ -147,7 +147,7 @@
     height: 100%;
     overflow-y: scroll;
     padding-bottom: 20rem;
-    width: 65%;
+    width: 100%;
 }
 
 .modal-preview__container-wrapper__content-preview::-webkit-scrollbar {
