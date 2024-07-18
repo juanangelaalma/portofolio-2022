@@ -3,7 +3,13 @@ import ProjectLinks from "../project-links/ProjectLinks";
 
 import "./project.css";
 
-const Project = ({ img, title, desc, url, github, video }) => {
+const Project = ({ img, title, desc, url, github, video, preview, skills, handlePreviewClick }) => {
+  const onPreviewClick = () => {
+    handlePreviewClick({
+      title, desc, preview, skills
+    })
+  }
+
   return (
     <div className="porto__portofolio-list_project">
       <div className="porto__portofolio-list_project-img">
@@ -14,7 +20,7 @@ const Project = ({ img, title, desc, url, github, video }) => {
         <p dangerouslySetInnerHTML={{__html: desc}}>
         </p>
       </div>
-      <ProjectLinks video={video} github={github} url={url} className="porto_portofolio-list_project-links" />
+      <ProjectLinks handlePreviewClick={onPreviewClick} preview={preview} video={video} github={github} url={url} className="porto_portofolio-list_project-links" />
     </div>
   );
 };

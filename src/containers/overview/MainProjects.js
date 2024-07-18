@@ -6,6 +6,9 @@ import MedikuImage from "../../assets/images/projects/main/mediku.webp"
 import AksiHijauImage from "../../assets/images/projects/main/aksihijau.webp"
 import SivreImage from "../../assets/images/projects/main/sivre.webp"
 import FeaturedProject from '../../components/featured-project/FeaturedProject'
+import Mediku from '../../projects-preview/Mediku'
+import AksiHijau from '../../projects-preview/AksiHijau'
+import Sivre from '../../projects-preview/Sivre'
 
 const featuredProjects = [
   {
@@ -15,6 +18,7 @@ const featuredProjects = [
     description: "An AI-powered medical app addressing child stunting innovatively optimizes growth and development, streamlining health monitoring, offering timely nutrition guidance, and transforming child care practices, potentially preventing long-term health issues for future generations.",
     video: "https://www.youtube.com/watch?v=uqxR8NilvI0",
     github: "https://github.com/MantaSetel/MedikuApp",
+    preview: <Mediku />
   },
   {
     image: AksiHijauImage,
@@ -24,6 +28,7 @@ const featuredProjects = [
     url: "https://drive.google.com/drive/folders/1NYD-Gkf53xna0E7fMiJnmjpQWmW5rXbk",
     github: "https://github.com/Aksi-Hijau",
     video: "https://youtu.be/YWVkwioP6Zo",
+    preview: <AksiHijau />
   },
   {
     image: SivreImage,
@@ -32,15 +37,16 @@ const featuredProjects = [
     description: "SIVRE (Sistem Informasi Voting Remas El Muna) is a voting application used for the selection of the youth organization's chairman at Masjid Agung Al Munawwar Tulungagung.",
     url: "https://sivre.vercel.app",
     github: "https://github.com/juanangelaalma/sivre",
+    preview: <Sivre />
   },
 ]
 
-const MainProjects = () => {
+const MainProjects = ({ handlePreviewClick }) => {
   return (
     <section id="portfolio" className="main-project section__padding">
       <HeaderOfList title="Some Things I’ve Built" ulrshowmore="https://github.com/juanangelaalma"/>
       { featuredProjects.map((project, index) => (
-        <FeaturedProject key={index} image={project.image} title={project.title} stacks={project.stacks} description={project.description} url={project.url} video={project.video} github={project.github} />
+        <FeaturedProject preview={project.preview} handlePreviewClick={handlePreviewClick} key={index} image={project.image} title={project.title} stacks={project.stacks} description={project.description} url={project.url} video={project.video} github={project.github} />
       ))}
     </section>
   )

@@ -1,10 +1,16 @@
-.project-links__wrapper a {
+.project-links__wrapper a, .project-links__wrapper button {
   margin-left: 0.3rem;
   color: var(--color-text);
   opacity: .5;
   transition: 500ms;
 }
 
-.project-links__wrapper a:hover {
+.project-links__wrapper a:hover, .project-links__wrapper button:hover {
   opacity: 1;
+}
+
+.project-links__wrapper button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }

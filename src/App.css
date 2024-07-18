@@ -132,3 +132,9 @@ a {
         margin-left: 0;
     }
 }
+
+.disable-scrolling {
+  overflow: hidden;
+  height: 100vh;
+  max-height: 100vh;
+}
