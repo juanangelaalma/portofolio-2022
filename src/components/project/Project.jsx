@@ -1,5 +1,4 @@
 import React from "react";
-import LazyLoad from 'react-lazy-load';
 import ProjectLinks from "../project-links/ProjectLinks";
 
 import "./project.css";
@@ -8,9 +7,7 @@ const Project = ({ img, title, desc, url, github, video }) => {
   return (
     <div className="porto__portofolio-list_project">
       <div className="porto__portofolio-list_project-img">
-          <LazyLoad height={180} once={true} offsetVertical={300}>
-              <img src={img} alt={title} />
-          </LazyLoad>
+        <img src={img} alt={title} />
       </div>
       <div className="porto__portofolio-list_project-content">
         <h1>{ title }</h1>
