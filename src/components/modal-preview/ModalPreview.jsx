@@ -48,7 +48,7 @@ const ModalPreview = ({ preview, handleClosePreview, isOpen }) => {
                     </div>
                 </div>
                 <div className="modal-preview__container-wrapper__content">
-                    <div className={`modal-preview__container-wrapper__content-desc ${preview.preview ? '' : 'full-width'}`}>
+                    <div className={`modal-preview__container-wrapper__content-desc ${preview?.preview ? '' : 'full-width'}`}>
                         <p className="modal-preview__container-wrapper__content-item">
                             Project description:{" "}
                         </p>
