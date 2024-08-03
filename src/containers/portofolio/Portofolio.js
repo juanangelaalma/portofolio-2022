@@ -22,6 +22,7 @@ import Medianku from "../../projects-preview/Medianku";
 import ModalPreview from "../../components/modal-preview/ModalPreview";
 import Medicine from "../../projects-preview/Medicine";
 import TeethId from "../../projects-preview/TeethId";
+import TwibSnap from "../../projects-preview/TwibSnap";
 
 const projects = [
   {
@@ -56,6 +57,7 @@ const projects = [
     url: "https://twibbsnap.vercel.app/",
     github: "https://github.com/juanangelaalma/twibb-snap",
     skills: ["ReactJS", "HTML", "CSS"],
+    preview: <TwibSnap />
   },
   {
     img: img4,

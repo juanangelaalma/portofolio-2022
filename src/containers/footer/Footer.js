@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillHeart } from 'react-icons/ai'
 
-import logo from "../../assets/png/logo.png"
+import logo from "../../assets/images/logo.webp"
 import reactIcon from '../../assets/images/react-icon.png'
 import "./footer.css"
 
