@@ -1,0 +1,71 @@
+.experience-card {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-text);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  font-family: var(--font-family);
+  cursor: default;
+}
+
+.experience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  border-color: var(--third-color-bg);
+}
+
+.experience-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.experience-card-company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card-company-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.experience-card-title h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-title);
+  margin-bottom: 0.2rem;
+  font-family: var(--font-family);
+}
+
+.experience-card-title h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-subtext);
+  font-family: var(--font-family);
+}
+
+.experience-card-date {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--color-subtext);
+  font-style: italic;
+  font-family: var(--font-family);
+}
+
+.experience-card-description p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  font-family: var(--font-family);
+}

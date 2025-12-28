@@ -1,0 +1,24 @@
+.experience {
+    background-color: var(--color-footer);
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .experience-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .experience-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
