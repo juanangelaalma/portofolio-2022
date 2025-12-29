@@ -6,6 +6,7 @@ import ReactGA from 'react-ga';
 import Navbar from './components/redesign/common/Navbar';
 import Loader from './components/redesign/common/Loader';
 import { ScrollProgress, CustomCursor } from './components/redesign/common/SmoothScroll';
+import ChatPopup from './components/redesign/common/ChatPopup';
 
 // Sections
 import Hero from './components/redesign/sections/Hero';
@@ -48,16 +49,16 @@ function AppRedesign() {
         <div className="relative">
           {/* Mesh gradient background */}
           <div className="mesh-gradient-bg" />
-          
+
           {/* Noise texture overlay */}
           <div className="noise-bg" />
-          
+
           {/* Scroll progress indicator */}
           <ScrollProgress />
-          
+
           {/* Navigation */}
           <Navbar />
-          
+
           {/* Main content */}
           <main>
             <Hero />
@@ -66,9 +67,21 @@ function AppRedesign() {
             <Skills />
             <Contact />
           </main>
-          
+
           {/* Footer */}
           <Footer />
+
+          {/* Bottom chat popup */}
+          <ChatPopup
+            author="Juan"
+            title="JuanBot"
+            subtitle="Chatbot (coming soon)"
+            message="Hey! Leave a message here — I'll connect this to a chatbot soon."
+            delayMs={800}
+            enableSound={true}
+            userAvatarSrc={""}
+            suggestions={["Show me your projects", "Let's collaborate", "How can I contact you?"]}
+          />
         </div>
       )}
     </>
